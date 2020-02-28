@@ -1,0 +1,36 @@
+#btn1{
+    margin-left:47%;
+    margin-top: 100px;
+    padding: 10px ;
+    background-color: darkgray;
+}
+#btn2{
+    margin-left:47%;
+    margin-top: 100px;
+    padding: 10px ;
+    background-color: darkgray;
+}
+#btn3{
+    margin-left:48%;
+    margin-top: 100px;
+    padding: 10px ;
+    background-color: darkgray;
+}
+
+#btn4{
+    margin-left:43%;
+    margin-top: 100px;
+    padding: 10px ;
+    background-color: darkgray;
+    margin-bottom: 20px;
+   
+}
+
+#flexmaket {
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: large;
+    border: solid 2px palevioletred;
+    padding:  40px 0;
+}
