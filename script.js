@@ -52,4 +52,4 @@ document.write("Average temperature: " + medium + "  °C");
   document.body.appendChild(document.createElement("br"));
 document.write("Max temperature: " + max+ "  °C");
   document.body.appendChild(document.createElement("br"));
-  
+   
