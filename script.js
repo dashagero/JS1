@@ -20,7 +20,7 @@ function Delite(){
     document.getElementById('flexmaket').style.marginTop = "200px";
 }
 
-var temperature = {
+var term = {
  Belarus: 6,
  Poland: 12,
  Ukraine: 8,
@@ -33,23 +33,23 @@ var max= 0;
 var sum = 0;
 var num = 0;
 
-for (var key in temperature) {
-  sum += temperature[key];
+for (var key in term) {
+  sum += term[key];
   ++num;
-      if(temperature[key] > max){
-          max = temperature[key];
+      if(term[key] > max){
+          max = term[key];
       }
   document.body.appendChild(document.createElement("br"));
-  document.write(key + " : " + temperature[key] + "  °C");
+  document.write(key + " : " + term[key] + "  °C");
 }
 
 var  medium = sum/num;
   document.body.appendChild(document.createElement("br"));
   document.body.appendChild(document.createElement("br"));
-document.write("Всего стран: " + num);
+document.write("Number of countries: " + num);
   document.body.appendChild(document.createElement("br"));
-document.write("Средняя температура : " + medium + "  °C");
+document.write("Average temperature: " + medium + "  °C");
   document.body.appendChild(document.createElement("br"));
-document.write("Максимальная температура в странах : " + max+ "  °C");
+document.write("Max temperature: " + max+ "  °C");
   document.body.appendChild(document.createElement("br"));
   
